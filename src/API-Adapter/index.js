@@ -15,3 +15,25 @@ export const getAllPosts = async () => {
     console.error(error);
   }
 };
+
+export const registerUser = async (username, password) => {
+  try {
+    const response = await fetch(`${URL}api/users/register`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        user: {
+          username,
+          password,
+        }
+      })
+    })
+    const {data} = await response.json();
+    return data.token
+  } catch (error) {
+    console.error(error)
+  }
+}

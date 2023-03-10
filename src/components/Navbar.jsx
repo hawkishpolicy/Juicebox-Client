@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div id="navbar">
     <form>
@@ -10,8 +12,9 @@ const Navbar = () => {
       placeholder="Search Here" />
     </form>
     
-    <div>
+    <div id="navbarButtons">
       <button>Posts</button>
+      <button>Register</button>
       <button>Log In</button>
       <button>Log Out</button>
       

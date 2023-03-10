@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+import { registerUser } from "../API-Adapter";
+import Navbar from "./Navbar";
 
 const Register = () => {
     return (
-<div></div>
+<div>
+    <h1>I am Register</h1>
+</div>
     )
 }
 
