@@ -3,7 +3,16 @@ import React from "react";
 const Navbar = () => {
   return (
     <div id="navbar">
-      <h2> I am navbar</h2>
+      <form>
+        <input
+        id={"searchBarInput"}
+        type={"text"}
+        placeholder={"Search Here"}
+        ></input>
+      </form>
+      
+      <button>Posts</button>
+      <button>Log In</button>
     </div>
   );
 };
