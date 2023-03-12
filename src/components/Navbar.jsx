@@ -11,11 +11,11 @@ const Navbar = () => {
       type="text"
       placeholder="Search Here" />
     </form>
-    
+    <Link to={"/"} id="title"><h2>Juicebox</h2></Link>    
     <div id="navbarButtons">
       <button>Posts</button>
-      {/* <Link to={"/Register"}><button>Register</button></Link>
-      <Link to={"/login"}><button>Log in</button></Link> */}
+      <Link to={"/Register"}><button>Register</button></Link>
+      <Link to={"/login"}><button>Log in</button></Link>
       <button>Log Out</button>
     </div>
     </div>

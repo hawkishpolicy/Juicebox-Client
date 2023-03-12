@@ -40,3 +40,12 @@ body {
  margin-left: 10px;
 }
 
+#title{
+  color:#f3f3f3;
+  text-decoration: none;
+  font-size: larger;
+}
+
+#title:hover{
+  color: #9f9f9f;
+}
