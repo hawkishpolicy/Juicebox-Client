@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom"
 import Main from "./Main";
-import { Login } from "./Login";
-import { Register } from "./Register";
+import {Login} from "./Login";
+import Register from "./Register";
 
-const allRoutes = () => {
+const AllRoutes = () => {
     return (
         <div>
             <Routes>
@@ -15,4 +15,4 @@ const allRoutes = () => {
         </div>
     )
 }
-export default allRoutes;
+export default AllRoutes;

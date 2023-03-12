@@ -19,7 +19,6 @@ const Main = () => {
     
     return(
         <div id="main">
-            <Navbar />
             <PostsList posts = {posts} setPosts = {setPosts}/> 
         </div>
     )

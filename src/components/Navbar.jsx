@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const navigate = useNavigate();
+  
   return (
     <div id="navbar">
     <form>
@@ -14,10 +14,9 @@ const Navbar = () => {
     
     <div id="navbarButtons">
       <button>Posts</button>
-      <button>Register</button>
-      <button>Log In</button>
+      {/* <Link to={"/Register"}><button>Register</button></Link>
+      <Link to={"/login"}><button>Log in</button></Link> */}
       <button>Log Out</button>
-      
     </div>
     </div>
   );
